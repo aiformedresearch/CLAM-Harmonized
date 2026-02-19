@@ -2,7 +2,7 @@
 
 A reproducible pipeline for **harmonized whole-slide preprocessing** (patching + feature extraction) derived from **CLAM** (https://github.com/97andrea97/CLAM_harmonized), designed to standardize patch resolution across heterogeneous WSI slides using **MPP-based harmonization**.
 
-The extracted features can then be used for **TOAD** training and evaluation.
+The extracted features can then be used for **TOAD** (https://github.com/mahmoodlab/TOAD) training and evaluation, of which we included the edited scripts in this repo.
 
 This repository provides:
 - **Containerized preprocessing** with **MPP-based harmonization** (WSI → patches → features)
