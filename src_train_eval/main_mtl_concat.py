@@ -134,27 +134,13 @@ if args.task == 'TCGA':
                             shuffle = False, 
                             seed = args.seed, 
                             print_info = True,
-                            label_dicts = [{
-                                            'Adrenal': 0,
-                                            'Bladder': 1,
-                                            'Breast': 2,
-                                            'Cervix': 3,
-                                            'Colorectal': 4,
-                                            'Endometrial': 5,
-                                            'Esophagogastric': 6,
-                                            'Germ cell': 7,
-                                            'Glioma': 8,
-                                            'Head and Neck': 9,
-                                            'Liver': 10,
-                                            'Lung adeno': 11,
-                                            'Ovarian': 12,
-                                            'Pancreatic': 13,
-                                            'Prostate': 14,
-                                            'Renal': 15,
-                                            'Skin': 16,
-                                            'Thyroid': 17,
-                                            }
-                                            ,
+                            label_dicts = [
+                                            {
+                                                "Adrenal": 0, "Bladder": 1, "Breast": 2, "Cervix": 3, "Cholangio": 4,
+                                                "Endometrial": 5, "Gastrointestinal": 6, "Germ cell": 7, "Glioma": 8,
+                                                "Head and Neck": 9, "Liver": 10, "Lung": 11, "Ovarian": 12, "Pancreatic": 13,
+                                                "Prostate": 14, "Renal": 15, "Skin": 16, "Thyroid": 17
+                                            },
                                             {}, # better to leave this order and content to not messup the dataset_mtl_contat.py script
                                             {'F':0, 'M':1}],
                             label_cols = ['label', 'site', 'sex'], # better to leave this order and content to not messup the dataset_mtl_contat.py script

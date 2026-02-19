@@ -6,6 +6,10 @@ __pycache__/
 *RESULTS*
 *my_notes.txt*
 
+*EXP*
+
+*TO_DO*
+
 # Ignore image files
 *.png
 *.jpg
@@ -108,3 +112,4 @@ preprocessing_output/
 # exception:
 !src_preprocessing/models/resnet50_trunc.pth
 !docs/GUI_example.png
+!docs/harmonization.png

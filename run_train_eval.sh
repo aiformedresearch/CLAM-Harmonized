@@ -17,7 +17,7 @@ if [[ -z "$RUNTIME" ]]; then
   fi
 fi
 
-label_frac_list=(0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0)
+label_frac_list=(1.0) # use all available data. change to e.g. (0.01 0.1 0.5 1.0) to run multiple fractions sequentially in one go.
 GPU=0
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

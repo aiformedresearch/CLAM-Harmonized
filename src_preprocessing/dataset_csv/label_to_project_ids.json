@@ -1,62 +1,20 @@
 {
-  "Adrenal": [
-    "TCGA-ACC"
-  ],
-  "Bladder": [
-    "TCGA-BLCA"
-  ],
-  "Breast": [
-    "TCGA-BRCA"
-  ],
-  "Cervix": [
-    "TCGA-CESC"
-  ],
-  "Colorectal": [
-    "TCGA-COAD",
-    "TCGA-READ"
-  ],
-  "Endometrial": [
-    "TCGA-UCEC"
-  ],
-  "Esophagogastric": [
-    "TCGA-ESCA",
-    "TCGA-STAD"
-  ],
-  "Germ cell": [
-    "TCGA-TGCT"
-  ],
-  "Glioma": [
-    "TCGA-GBM",
-    "TCGA-LGG"
-  ],
-  "Head and Neck": [
-    "TCGA-HNSC"
-  ],
-  "Liver": [
-    "TCGA-CHOL",
-    "TCGA-LIHC"
-  ],
-  "Lung adeno": [
-    "TCGA-LUAD"
-  ],
-  "Ovarian": [
-    "TCGA-OV"
-  ],
-  "Pancreatic": [
-    "TCGA-PAAD"
-  ],
-  "Prostate": [
-    "TCGA-PRAD"
-  ],
-  "Renal": [
-    "TCGA-KICH",
-    "TCGA-KIRC",
-    "TCGA-KIRP"
-  ],
-  "Skin": [
-    "TCGA-SKCM"
-  ],
-  "Thyroid": [
-    "TCGA-THCA"
-  ]
+    "Adrenal": ["TCGA-ACC"],
+    "Bladder": ["TCGA-BLCA"],
+    "Breast": ["TCGA-BRCA"],
+    "Cervix": ["TCGA-CESC"],
+    "Cholangio": ["TCGA-CHOL"],
+    "Endometrial": ["TCGA-UCEC"],
+    "Gastrointestinal": ["TCGA-ESCA", "TCGA-COAD", "TCGA-READ", "TCGA-STAD"],
+    "Germ cell": ["TCGA-TGCT"],
+    "Glioma": ["TCGA-GBM", "TCGA-LGG"],
+    "Head and Neck": ["TCGA-HNSC"],
+    "Liver": ["TCGA-LIHC"],
+    "Lung": ["TCGA-LUAD"],
+    "Ovarian": ["TCGA-OV"],
+    "Pancreatic": ["TCGA-PAAD"],
+    "Prostate": ["TCGA-PRAD"],
+    "Renal": ["TCGA-KICH", "TCGA-KIRC", "TCGA-KIRP"],
+    "Skin": ["TCGA-SKCM"],
+    "Thyroid": ["TCGA-THCA"],
 }
