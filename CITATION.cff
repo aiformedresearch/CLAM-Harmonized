@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it."
-title: "CLAM Harmonized Preprocessing + TOAD Training/Evaluation"
+message: "This repo is associated with the paper 'Mitigating resolution-induced domain shift in Whole-Slide Image MIL via metadata-driven patch harmonization' currently under review"
+title: "Mitigating resolution-induced domain shift in Whole-Slide Image MIL via metadata-driven patch harmonization"
 type: software
 license: AGPL-3.0-only
 authors:
@@ -16,10 +16,10 @@ authors:
   - given-names: "Stefano"
     family-names: "Diciotti"
     affiliation: "University of Bologna"
-repository-code: "<ADD_GITHUB_URL>"
+repository-code: "https://github.com/aiformedresearch/CLAM-Harmonized"
 doi: "<ADD_ZENODO_DOI_OR_EMPTY>"
 abstract: >
-  A reproducible pipeline for harmonized whole-slide preprocessing (patching + feature extraction)
+  A reproducible pipeline for resolution-HARMONIZED whole-slide preprocessing (patching + feature extraction)
   derived from CLAM, designed to standardize patch resolution across heterogeneous WSI slides using
   microns-per-pixel (MPP) harmonization. The harmonized feature bundles can be used for TOAD training,
   evaluation, and optional inference via a lightweight local GUI. The repository is released in
