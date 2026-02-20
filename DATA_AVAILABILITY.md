@@ -1,4 +1,4 @@
-# Data availability notes (PLOS Digital Health)
+# Data availability notes
 
 This repository does not redistribute TCGA whole-slide images https://www.cancer.gov/ccg/research/genome-sequencing/tcga.
 
