@@ -17,7 +17,7 @@ authors:
     family-names: "Diciotti"
     affiliation: "University of Bologna"
 repository-code: "https://github.com/aiformedresearch/CLAM-Harmonized"
-doi: "<ADD_ZENODO_DOI_OR_EMPTY>"
+doi: "https://doi.org/10.5281/zenodo.18706557"
 abstract: >
   A reproducible pipeline for resolution-HARMONIZED whole-slide preprocessing (patching + feature extraction)
   derived from CLAM, designed to standardize patch resolution across heterogeneous WSI slides using
