@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18706557.svg)](https://doi.org/10.5281/zenodo.18706557)
+
 # CLAM Harmonized Preprocessing + TOAD Training/Evaluation
 
 A reproducible pipeline for **harmonized whole-slide preprocessing** (patching + feature extraction) derived from **CLAM** (https://github.com/97andrea97/CLAM_harmonized), designed to standardize patch resolution across heterogeneous WSI slides using **MPP-based harmonization**.
