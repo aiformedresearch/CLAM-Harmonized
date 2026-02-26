@@ -17,16 +17,16 @@ REPO = Path(__file__).resolve().parents[1]
 # Relative to repo root (as you requested)
 PREPROC_IMG_REL = Path("assets/containers/singularity_preprocessing.simg")
 TRAIN_EVAL_IMG_REL = Path("assets/containers/singularity_train_eval.simg")
-DEFAULT_CKPT_REL = Path("assets/inference_model_checkpoint/TOAD_UNI_100.pt")
+DEFAULT_CKPT_REL = Path("assets/inference_model_checkpoint/TOAD_ResNet_harmonized.pt")
 
 # CLAM code directory (mounted read-only)
-CLAM_CODE_REL = Path("src_preprocessing/CLAM_encoder")
+CLAM_CODE_REL = Path("src_preprocessing/")
 
 # Output location (relative to repo root)
 OUT_ROOT_REL = Path("output/inference_GUI_runs")
 
-# UNI-only preprocessing settings
-FORCED_ENCODER = "uni_v1"
+# Preprocessing settings
+FORCED_ENCODER = "resnet50_trunc"
 FORCED_TARGET_PATCH_SIZE = "224"
 
 # If your CLAM wrapper has a different name/path, change here:
@@ -463,7 +463,7 @@ INDEX_HTML = r"""
 <html>
 <head>
 <meta charset="utf-8">
-<title>TOAD inference (UNI)</title>
+<title>TOAD inference</title>
 <style>
   html, body { height: 100%; margin: 0; }
   body { font-family: sans-serif; padding: 10px 12px; box-sizing: border-box; overflow: hidden; }
@@ -606,7 +606,7 @@ INDEX_HTML = r"""
     <div class="panel">
       <div style="font-size:12px; font-weight:900; margin-bottom:6px;">Tumor site prediction</div>
       <div class="hint">
-        If results look strange, verify the checkpoint was trained with UNI features
+        If results look strange, verify the checkpoint was trained with ResNet features
       </div>
       <div id="probList"></div>
     </div>
